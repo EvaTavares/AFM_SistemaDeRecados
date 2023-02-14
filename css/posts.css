@@ -1,0 +1,59 @@
+#all {
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+#gif {
+    position: relative;    
+    width: 115px;
+    height: 115px;   
+    padding: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+} 
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+  
+tr {
+    border-bottom: 1px solid #ddd;
+}
+
+tbody > tr:hover {
+    background-color: #AFEEEE;
+}
+
+#detalhamento {
+    border-radius: 5px;
+    width: 70%;
+    height: 30px;
+    margin-left: 15px;
+}
+
+#descricao { 
+    border-radius: 5px;
+    width: 15%;
+    height: 30px;
+}
+
+.buttonRecadosSalvar {
+    width: 10%;
+    height: 37px;
+    background-color: rgb(159, 84, 230);
+    color: #d6eeee;
+    border-radius: 5px;
+}
+
+#buttonSair {
+    width: 10%;
+    height: 37px;
+    background-color: rgba(182, 23, 23, 0.894);
+    color: #d6eeee;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+

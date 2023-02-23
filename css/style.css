@@ -4,10 +4,15 @@
     box-sizing: border-box;
 }
 
-#container {
-    background: rgb(238,174,202);
-    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
-    animation: colors 15s ease infinite;
+.cor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw; 
+    background: linear-gradient(45deg,#3A1078, #2ae349, #570ab6, #dbf03f, #ee17ce);
+    background-size: 300% 300%;
+    animation: colors 10s ease infinite;
 }
 
 .two {   
@@ -25,17 +30,17 @@
     text-align: center;
 }
 
+
 @keyframes colors {
     0%{
         background-position: 0% 50%;
-
     }
+
     50%{
         background-position: 100% 50%;
-
     }
+
     100%{
         background-position: 0% 50%;
-
     }
 }
